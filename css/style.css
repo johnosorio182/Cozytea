@@ -33,10 +33,17 @@ h2  {
     font-weight: bold;
 }
 
+h3 {
+    display: block;
+}
+
 h4 {
     display: block;
 }
 
+p {
+    display: block;
+}
 .logo {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +96,60 @@ a {
     background-color: black;
     width: 100%;
     margin: auto;
+}
+
+#Tea {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+
+#Locations .flex-container {
+      margin: auto;
+      width: 100%;
+}
+
+.flex-container.Locations {
+      padding-top: 5px;
+}
+
+.location {
+    display: flex;
+    padding: 10px;
+    margin: 5px 20px;
+    flex-basis: 280px;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
 }

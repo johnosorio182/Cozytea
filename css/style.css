@@ -153,3 +153,12 @@ a {
     justify-content: center;
     flex-direction: column;
 }
+
+#contact {
+    height: 200px;
+}
+footer {
+    padding-left: 20px;
+    text-align: left;
+
+}
